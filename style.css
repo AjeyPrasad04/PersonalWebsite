@@ -2,15 +2,15 @@
 
 *{
     margin: 0;
+    color: white;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
 body{
-    background: #081b29;
-    color: #ededed;
-
+    background-color: #FF52A2;
+    /* color: #FFF6E0; */
 }
 
 .header{
@@ -35,16 +35,16 @@ body{
 
 .navbar a{
     font-size: 18px;
-    color: #ededed;
+    color: white;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: bolder;
     margin-left: 35px;
     transition: 0.3s;
 }
 
 .navbar a:hover,
 .navbar a.active{
-    color: #00abf0;
+    color: #F31559;
 }
 
 .home{
@@ -67,7 +67,7 @@ body{
 .home-content h3{
     font-size: 32px;
     font-weight: 700;
-    color: #00abf0;
+    color: #FFEECC;
 }
 
 .home-content p{
@@ -89,16 +89,16 @@ body{
     align-items: center;
     width: 150px;
     height: 100%;
-    background: #00abf0;
-    border: 2px solid #00abf0;
+    border: 2px solid #;
     border-radius: 8px;
-    color: #081b29;
+    color: white;
     text-decoration: none;
     font-weight: 600;
     letter-spacing: 1px;
     z-index: 1;
     overflow: hidden;
     transition: 0.5s;
+    background-color: #FF2171;
 }
 
 .btn-box a:hover{
@@ -106,8 +106,7 @@ body{
 }
 
 .btn-box a:nth-child(2){
-    background: transparent;
-    color: #00abf0;
+    color: white;
 }
 
 .btn-box a:nth-child(2):hover{
@@ -115,7 +114,7 @@ body{
 }
 
 .btn-box a:nth-child(2)::before{
-    background: #00abf0;
+    /* background: #00abf0; */
 }
 
 .btn-box a::before{
@@ -125,7 +124,8 @@ body{
     left: 0;
     width: 0;
     height: 100%;
-    background: #081b29;
+    color: black;
+    /* background: #FF9B9B; */
     z-index: -1;
     transition: 0.5s;
 }
@@ -150,7 +150,7 @@ body{
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid #00abf0;
+    border: 2px solid #F31559;
     border-radius: 50%;
     font-size: 20px;
     color: #00abf0;
@@ -166,7 +166,7 @@ body{
     left: 0;
     width: 0;
     height: 100%;
-    background: #00abf0;
+    background: #f31559;
     z-index: -1;
     transition: .5s;
 }
