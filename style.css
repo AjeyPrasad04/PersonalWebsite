@@ -28,11 +28,8 @@ body{
 
 #image{
     #image {
-        width: 400px;
-        height: 400px;
-        object-fit: none;
-        object-position: right ;
-      }
+              vertical-align: middle;
+            }
 }
 
 .logo{
