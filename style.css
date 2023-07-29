@@ -27,7 +27,14 @@ body{
 }
 
 #image{
-    object-position : right ;
+    #image {
+        width: 800px;
+        height: 600px;
+        background-color: blue;
+        object-fit: none;
+        object-position: left top;
+        border: 2px solid black;
+      }
 }
 
 .logo{
