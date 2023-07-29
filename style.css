@@ -26,6 +26,10 @@ body{
     z-index: 100;
 }
 
+#image{
+    object-position : right ;
+}
+
 .logo{
     font-size: 25px;
     color: #ededed;
